@@ -1,0 +1,348 @@
+html {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    background-position: unset;
+    font-family: 'IM Fell French Canon', serif;
+}
+
+.pagina {
+    height: 100vh;
+    min-height: 100%;
+    max-height: 100%;
+
+}
+
+.escrita1 {
+    text-align: center;
+}
+
+.escrita1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.escrita1 li {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.container {
+    border: 3px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.items {
+    border: 2px;
+    width: 300px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.76);
+
+}
+
+.container2 {
+    border: 3px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container2 li {
+    margin-bottom: 20px;
+}
+
+.items2 p {
+
+    text-align: left;
+    margin-top: auto;
+    /* Alinha o parágrafo no final do retângulo */
+    margin-left: 15px;
+    color: #555;
+    
+}
+
+.items2 {
+    border: 2px;
+    width: 500px;
+    height: 200px;
+    background-color:rgba(255, 255, 255, 0.76);
+    margin-top:30px;
+
+}
+
+.container3 {
+    border: 3px;
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.items3 {
+    border: 2px;
+    width: 260px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+.items3 img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.contato {
+    border: 3px;
+    width: auto;
+    height: 200px;
+    display: block;
+    margin-top: 50px;
+    background-color: rgba(187, 185, 185, 0.863);
+}
+
+.contato p {
+    margin-left: 25px;
+}
+
+.policy-link {
+
+    float: right;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+.logotipos {
+    float: right;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content img {
+    margin-left: 15px;
+}
+
+.escrita2 {
+    margin-left: 15px;
+    font-size: 25px;
+
+}
+
+.escrita2 li {
+    margin-bottom: 10px;
+}
+
+
+
+.btn {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.text {
+    margin-right: 10px;
+    float: left;
+}
+
+.btn ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.btn li {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 20px 15px;
+    font-size: 16px;
+    background-color: #3fbb46;
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: rgb(24, 110, 7);
+}
+
+body {
+    background-color: rgb(216, 235, 225);
+
+}
+
+.icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.list3 {
+    text-align: left;
+    margin-left: 150px;
+}
+
+.list3 ul {
+
+    padding: 0;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.list3 li {
+
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+#scrollBtn {
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#scrollBtn:hover {
+    background-color: #333;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+
+    .pagina {
+        height: auto;
+        min-height: auto;
+        max-height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 20px;
+      }
+    
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .items {
+      width: 350px;
+      height: 400px;
+      margin-bottom: 20px;
+    }
+  
+    .container2 {
+      flex-direction: column;
+      width: 250px;
+    }
+  
+    .items2 {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .container3 {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .items3 {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .contato {
+        width: 300px  ; 
+        height: 220px ;
+        margin-top: 30px;
+    }
+  
+    .content {
+      flex-direction: column;
+    }
+  
+    .content img {
+      margin-left: 0;
+      margin-bottom: 15px;
+    }
+  
+    .escrita2 {
+      margin-left: 0;
+      font-size: 20px;
+    }
+  
+    .btn {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .text {
+      margin-right: 0;
+      float: none;
+      margin-bottom: 10px;
+    }
+  
+    button {
+      padding: 15px;
+      font-size: 14px;
+    }
+  
+    .list3 {
+      margin-left: 0;
+    }
+
+    .logotipos {
+        width: 20px;
+    }
+
+    .mg {
+        width: 350px;
+    }
+  }
